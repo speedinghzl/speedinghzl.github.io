@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Objectlevel proposals. on Homepage</title>
+    <link>https://speedinghzl.github.io/publication/</link>
+    <description>Recent content in Objectlevel proposals. on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://speedinghzl.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Weakly-supervised semantic segmentation network with deep seeded region growing</title>
+      <link>https://speedinghzl.github.io/publication/dsrg/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://speedinghzl.github.io/publication/dsrg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object-level proposals</title>
+      <link>https://speedinghzl.github.io/publication/object-level-proposals/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://speedinghzl.github.io/publication/object-level-proposals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep patch learning for weakly supervised object classification and discovery</title>
+      <link>https://speedinghzl.github.io/publication/dpl/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://speedinghzl.github.io/publication/dpl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Point linking network for object detection</title>
+      <link>https://speedinghzl.github.io/publication/pln/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://speedinghzl.github.io/publication/pln/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
