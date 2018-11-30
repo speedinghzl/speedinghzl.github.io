@@ -19,26 +19,30 @@
       
       <guid>https://speedinghzl.github.io/home/about/</guid>
       <description>Biography Zilong Huang is a PhD student in the School of Electronic Information and Communications in Huazhong University of Science and Technology (HUST), advised by Wenyu Liu and Xinggang Wang. His research interests include semantic segmentation, object detection and weakly supervised learning.
-He was working as an intern at the Internet Media group in the Microsoft Research Asia, advised by Jingdong Wang.</description>
+He is currently a visiting PhD student in the IFP group of the University of Illinois at Urbana-Champaign, advised by Prof. Thomas S. Huang.</description>
     </item>
     
     <item>
       <title>Publications</title>
       <link>https://speedinghzl.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
       <guid>https://speedinghzl.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Custom Section</title>
+      <title>Work Experiences</title>
       <link>https://speedinghzl.github.io/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://speedinghzl.github.io/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+      <description>Horizon Robotics, Beijing, China (Mar, 2018 - Sep, 2017)
+Position: Research Intern (Algorithm Platform)
+Advisor: Lichao Huang
+Microsoft Research Asia (MSRA), Beijing, China (Mar, 2016 - Oct, 2017)
+Position: Research Intern (Internet Media group)
+Advisor: Jingdong Wang, Chunyu Wang</description>
     </item>
     
   </channel>
