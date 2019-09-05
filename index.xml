@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Semantic Image Segmentation by Scale-Adaptive Networks</title>
+      <link>https://speedinghzl.github.io/publication/san/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://speedinghzl.github.io/publication/san/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Proposal, Tracking and Segmentation (PTS): A Cascaded Network for Video Object Segmentation</title>
       <link>https://speedinghzl.github.io/publication/ptsnet/</link>
       <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>

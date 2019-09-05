@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 20 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://speedinghzl.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SPGNet: Semantic Prediction Guidance for Scene Parsing</title>
+      <link>https://speedinghzl.github.io/publication/spgnet/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://speedinghzl.github.io/publication/spgnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CCNet: Criss-Cross Attention for Semantic Segmentation</title>
+      <link>https://speedinghzl.github.io/publication/ccnet/</link>
+      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://speedinghzl.github.io/publication/ccnet/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A PyTorch Semantic Segmentation Toolbox</title>
