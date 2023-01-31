@@ -24,7 +24,7 @@
 	<p>I am now a researcher at GY-Lab, Tencent. 
     I received my Ph.D. degree and B.E. degree from Huazhong University of Science and Technology (HUST) in 2020 and 2015 respectively, advised by <a href="http://eic.hust.edu.cn/professor/liuwenyu/" target="_blank">Prof. Wenyu Liu</a> and <a href="https://xinggangw.info/" target="_blank">Prof. Xinggang Wang</a>. I was working as a visiting student (2018-2019) in the <a href="http://ifp-uiuc.github.io/" target="_blank">IFP group</a> at the University of Illinois at Urbana-Champaign (UIUC), advised by <a href="http://www.ece.illinois.edu/directory/profile/t-huang1" target="_blank">Prof. Thomas S. Huang</a>, <a href="https://weiyc.github.io/" target="_blank">Prof. Yunchao Wei</a> and <a href="https://www.humphreyshi.com/" target="_blank">Prof. Humphrey Shi</a>.
 
-    <p>I work on computer vision problems with special focus on image/video semantic segmentation, efficient network design for mobile vision.</p>
+    <p>I work on computer vision problems with special focus on image/video understanding/generation, efficient network design for mobile vision.</p>
 
 
 		
@@ -49,6 +49,7 @@
         <tbody><tr><td>
             <heading>Highlights</heading>
             <ul>
+    <li>[Jan 2023] <a href="https://arxiv.org/abs/2301.13156" target="_blank">SeaFormer</a> accepted to ICLR 2023 and <a href="https://ieeexplore.ieee.org/document/10025770" target="_blank">DCNet</a> accepted to TCSVT </li>
 		<li>[Sep 2022] <a href="https://arxiv.org/abs/2210.11170" target="_blank">COCO-Nerf</a>  accepted to NeurIPS 2022</li>	
 		<li>[Mar 2022] <a href="https://arxiv.org/abs/2204.05525" target="_blank">Topformer</a>  accepted to CVPR 2022</li>
 		<li>[Dec 2021] Delighted to receive <a href="http://www.csig.org.cn/detail/3233" target="_blank">CSIG Excellent Doctoral Dissertation Award</a></li>
@@ -70,13 +71,46 @@
 	  <div id="publication" style="width: 100%; margin-top: 10px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: inline-block">
           </div>
           <p> My selected publications are listed here. The complete list of publications can be seen from my <a href="https://scholar.google.com/citations?user=GW9vw8UAAAAJ&hl=en">Google Scholar</a> page.</p>
-          <p>^ students mentored by me at Tencent. * equal contribution</p>
+          <p>^ students mentored by me. * equal contribution</p>
       </td>
       </tr>
       </table>
 
 	  
 	 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr onmouseout="topformer_stop()" onmouseover="topformer_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle;">
+              <div class="one">
+                <div class="two" id='topformer_image'><img src='resource/seaformer.png' width="160" height="120" style="border-style: none"></div>
+                <img src='resource/seaformer.png' width="160" height="120" style="border-style: none">
+              <script type="text/javascript">
+                function diffposenet_start() {
+                  document.getElementById('topformer_image').style.opacity = "1";
+                }
+
+                function diffposenet_stop() {
+                  document.getElementById('topformer_image').style.opacity = "0";
+                }
+                diffposenet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2210.11170">
+                <papertitle>SeaFormer: Squeeze-enhanced Axial Transformer for Mobile Semantic Segmentation</papertitle>
+              </a>
+              <br>
+              Qiang Wan^, <strong>Zilong Huang</strong>, Jiachen Lu, Gang Yu, Li Zhang
+              <br>
+        <em><a href="https://iclr.cc/">ICLR, 2023</a></em> 
+              <br>
+              <a href="https://github.com/fudan-zvg/seaformer">code</a> /
+              <a href="https://arxiv.org/abs/2301.13156">pdf</a>
+        
+              <p></p>
+              <p style="color:rgb(110, 110, 110)"> we design a generic attention block characterized by the formulation of squeeze Axial and detail enhancement for mobile vision.</p>
+            </td>
+          </tr> 
 
     <tr onmouseout="topformer_stop()" onmouseover="topformer_start()">
             <td style="padding:20px;width:25%;vertical-align:middle;">
@@ -360,9 +394,8 @@
               <a href="https://github.com/speedinghzl/CCNet">code</a> /
               <a href="https://arxiv.org/pdf/1811.11721.pdf">pdf</a> 
               <p></p>
-              <p style="color:rgb(255, 0, 0)"> <a href="https://www.paperdigest.org/2021/08/most-influential-iccv-papers-2021-08" style="color:#FF0000;">PaperDigest Most Influential ICCV 2019 papers (Top 10)</a>. 
-              Applications of CCNet also include <a href="https://www.nature.com/articles/s41586-021-03819-2" style="color:#FF0000;">AlphaFold2</a>.
-              More than 1000 citations. </p>
+              <p style="color:rgb(255, 0, 0)"> <a href="https://www.paperdigest.org/2021/08/most-influential-iccv-papers-2021-08" style="color:#FF0000;">More than 1700 citations, PaperDigest Most Influential ICCV 2019 papers (5th)</a>. 
+              Applications of CCNet also include <a href="https://www.nature.com/articles/s41586-021-03819-2" style="color:#FF0000;">AlphaFold2</a>.</p>
               <p style="color:rgb(110, 110, 110)"> we propose a Criss-Cross Network (CCNet) for obtaining full-image contextual information in a very effective and efficient way.</p>
             </td>
           </tr>
