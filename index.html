@@ -79,6 +79,40 @@
 	  
 	 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+    <tr onmouseout="topformer_stop()" onmouseover="topformer_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle;">
+              <div class="one">
+                <div class="two" id='topformer_image'><img src='resource/mld.png' width="160" height="120" style="border-style: none"></div>
+                <img src='resource/mld.png' width="160" height="120" style="border-style: none">
+              <script type="text/javascript">
+                function diffposenet_start() {
+                  document.getElementById('topformer_image').style.opacity = "1";
+                }
+
+                function diffposenet_stop() {
+                  document.getElementById('topformer_image').style.opacity = "0";
+                }
+                diffposenet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2210.11170">
+                <papertitle>Executing your Commands via Motion Diffusion in Latent Space</papertitle>
+              </a>
+              <br>
+              Xin Chen, Biao Jiang, Wen Liu, <strong>Zilong Huang</strong>, Bin Fu, Tao Chen, Jingyi Yu, Gang Yu
+              <br>
+        <em><a href="https://iclr.cc/">CVPR, 2023</a></em> 
+              <br>
+              <a href="https://github.com/chenfengye/motion-latent-diffusion">code</a> /
+              <a href="https://arxiv.org/pdf/2212.04048.pdf">pdf</a>
+        
+              <p></p>
+              <p style="color:rgb(110, 110, 110)"> We propose a Motion Latent-based Diffusion model (MLD) could produce vivid motion sequences conforming to the given conditional inputs and substantially reduce the computational overhead in both the training and inference stages.</p>
+            </td>
+          </tr> 
+
     <tr onmouseout="topformer_stop()" onmouseover="topformer_start()">
             <td style="padding:20px;width:25%;vertical-align:middle;">
               <div class="one">
