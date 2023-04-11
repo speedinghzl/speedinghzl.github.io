@@ -21,7 +21,7 @@
           <name>Zilong Huang / 黄子龙</name>
         </p>
         <p> </p>
-	<p>I am now a researcher at GY-Lab, Tencent. 
+	<p>I am now a research scientist at TikTok. 
     I received my Ph.D. degree and B.E. degree from Huazhong University of Science and Technology (HUST) in 2020 and 2015 respectively, advised by <a href="http://eic.hust.edu.cn/professor/liuwenyu/" target="_blank">Prof. Wenyu Liu</a> and <a href="https://xinggangw.info/" target="_blank">Prof. Xinggang Wang</a>. I was working as a visiting student (2018-2019) in the <a href="http://ifp-uiuc.github.io/" target="_blank">IFP group</a> at the University of Illinois at Urbana-Champaign (UIUC), advised by <a href="http://www.ece.illinois.edu/directory/profile/t-huang1" target="_blank">Prof. Thomas S. Huang</a>, <a href="https://weiyc.github.io/" target="_blank">Prof. Yunchao Wei</a> and <a href="https://www.humphreyshi.com/" target="_blank">Prof. Humphrey Shi</a>.
 
     <p>I work on computer vision problems with special focus on image/video understanding/generation, efficient network design for mobile vision.</p>
@@ -49,6 +49,7 @@
         <tbody><tr><td>
             <heading>Highlights</heading>
             <ul>
+    <li>[Apr 2023] <a href="https://arxiv.org/abs/2304.00784" target="_blank">Disentangled Pre-training for Image Matting</a> is released</li>
     <li>[Feb 2023] <a href="https://arxiv.org/abs/2212.04048" target="_blank">Motion Latent-based Diffusion</a> is accepted to CVPR 2023</li>
     <li>[Jan 2023] <a href="https://arxiv.org/abs/2301.13156" target="_blank">SeaFormer</a> is accepted to ICLR 2023 and <a href="https://ieeexplore.ieee.org/document/10025770" target="_blank">DCNet</a> is accepted to TCSVT </li>
 		<li>[Sep 2022] <a href="https://arxiv.org/abs/2210.11170" target="_blank">COCO-Nerf</a> is accepted to NeurIPS 2022</li>	
@@ -79,6 +80,41 @@
 
 	  
 	 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+    <tr onmouseout="topformer_stop()" onmouseover="topformer_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle;">
+              <div class="one">
+                <div class="two" id='topformer_image'><img src='resource/dpt.png' width="160" height="120" style="border-style: none"></div>
+                <img src='resource/dpt.png' width="160" height="120" style="border-style: none">
+              <script type="text/javascript">
+                function diffposenet_start() {
+                  document.getElementById('topformer_image').style.opacity = "1";
+                }
+
+                function diffposenet_stop() {
+                  document.getElementById('topformer_image').style.opacity = "0";
+                }
+                diffposenet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2304.00784">
+                <papertitle>Disentangled Pre-training for Image Matting</papertitle>
+              </a>
+              <br>
+              Yanda Li^, <strong>Zilong Huang</strong>, Gang Yu, Ling Chen, Yunchao Wei, Jianbo Jiao
+              <br>
+        <em><a href="https://arxiv.org/abs/2304.00784">Arxiv, 2023</a></em> 
+              <br>
+              <!-- <a href="">code</a> / -->
+              code /
+              <a href="https://arxiv.org/pdf/2304.00784.pdf">pdf</a>
+        
+              <p></p>
+              <p style="color:rgb(110, 110, 110)"> we propose the first self-supervised large-scale pretraining approach for image matting.</p>
+            </td>
+          </tr>
 
 
     <tr onmouseout="topformer_stop()" onmouseover="topformer_start()">
