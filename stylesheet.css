@@ -138,3 +138,8 @@ span.highlight {
   align-items: center;
   overflow: hidden;
 }
+
+.red-bold {
+    color: red;
+    font-weight: bold;
+}
