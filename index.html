@@ -60,6 +60,8 @@
             <ul>
              
     <p> <span class="red-bold ">[Call for paper]</span> Image and Vision Computing <a href="https://www.sciencedirect.com/journal/image-and-vision-computing/about/call-for-papers"> Special Issue on "Advancing Transparency and Privacy: Explainable AI and Synthetic Data in Biometrics and Computer Vision" </a></p>
+    <li>[Jun 2025] Three papers (<a href="https://arxiv.org/pdf/2504.10462">SAIL</a>, <a href="https://arxiv.org/abs/2504.08736">GiGaTok</a> and QK-Edit) are accepted by ICCV 2025.</li>
+    <li>[May 2025] <a href="https://www.arxiv.org/abs/2505.07062">Seed1.5-VL Technical Report</a> is released.</li>
     <li>[Feb 2025] <a href="https://github.com/hustvl/DiG">DiG</a> and <a href="https://videodepthanything.github.io/"> Video Depth-Anything  </a> are accepted by CVPR 2025.</li>
     <li>[Jan 2025] <a href="https://arxiv.org/abs/2301.13156">SeaFormer++</a> is accepted by IJCV.</li>
     <li>[Oct 2024] <a href="https://arxiv.org/abs/2411.03313">SuperClass</a> and <a href="https://depth-anything-v2.github.io"> Depth-Anything V2 </a> are accepted by NeurIPS 2024.</li>
@@ -100,6 +102,38 @@
 	  
 	 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <tr onmouseout="topformer_stop()" onmouseover="topformer_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle;">
+              <div class="one">
+                <div class="two" id='topformer_image'><img src='resource/seed-vl.png' width="160" height="120" style="border-style: none"></div>
+                <img src='resource/seed-vl.png' width="160" height="120" style="border-style: none">
+              <script type="text/javascript">
+                function diffposenet_start() {
+                  document.getElementById('topformer_image').style.opacity = "1";
+                }
+
+                function diffposenet_stop() {
+                  document.getElementById('topformer_image').style.opacity = "0";
+                }
+                diffposenet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.arxiv.org/abs/2505.07062">
+                <papertitle>Seed1.5-VL Technical Report</papertitle>
+              </a>
+              <br>
+              ByteDance Seed.
+              <br>
+        <em><a href="">Arxiv, 2025</a></em> 
+              <br>
+              <a href="https://seed.bytedance.com/zh/tech/seed1_5_vl">website</a> /
+              <a href="https://www.arxiv.org/abs/2505.07062">pdf</a>
+        
+              <p></p>
+              <p style="color:rgb(110, 110, 110)"> My primary responsibility was to conduct research on vision-language pre-training and to design the training pipeline for Seed-ViT.</p>
+            </td>
+          </tr>
 
     <tr onmouseout="topformer_stop()" onmouseover="topformer_start()">
             <td style="padding:20px;width:25%;vertical-align:middle;">
@@ -124,13 +158,47 @@
               <br>
               Weixian Lei*, Jiacong Wang*, Haochen Wang*, Xiangtai Li, Jun Hao Liew, Jiashi Feng, <strong>Zilong Huang</strong>.
               <br>
-        <em><a href="">Arxiv, 2025</a></em> 
+        <em><a href="">ICCV, 2025</a></em> 
               <br>
               <a href="https://github.com/bytedance/SAIL">code</a> /
               <a href="https://arxiv.org/pdf/2504.10462">pdf</a>
         
               <p></p>
               <p style="color:rgb(110, 110, 110)"> We systematically compare SAIL’s properties—including scalability, cross-modal information flow patterns, and visual representation capabilities—with those of modular MLLMs.</p>
+            </td>
+          </tr>
+
+
+    <tr onmouseout="topformer_stop()" onmouseover="topformer_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle;">
+              <div class="one">
+                <div class="two" id='topformer_image'><img src='resource/gigatok.png' width="160" height="120" style="border-style: none"></div>
+                <img src='resource/gigatok.png' width="160" height="120" style="border-style: none">
+              <script type="text/javascript">
+                function diffposenet_start() {
+                  document.getElementById('topformer_image').style.opacity = "1";
+                }
+
+                function diffposenet_stop() {
+                  document.getElementById('topformer_image').style.opacity = "0";
+                }
+                diffposenet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2504.08736">
+                <papertitle>GigaTok: Scaling Visual Tokenizers to 3 Billion Parameters for Autoregressive Image Generation</papertitle>
+              </a>
+              <br>
+              Tianwei Xiong, Jun Hao Liew, <strong>Zilong Huang</strong>, Jiashi Feng, Xihui Liu.
+              <br>
+        <em><a href="">ICCV, 2025</a></em> 
+              <br>
+              <a href="https://github.com/SilentView/GigaTok">code</a> /
+              <a href="https://arxiv.org/abs/2504.08736">pdf</a>
+        
+              <p></p>
+              <p style="color:rgb(110, 110, 110)"> We introduce GigaTok, the first method for scaling visual tokenizers to 3 billion parameters.</p>
             </td>
           </tr>
 
@@ -160,45 +228,11 @@
               <br>
         <em><a href="">Arxiv, 2025</a></em> 
               <br>
-              <a href="https://github.com/magicresearch/Sa2VA">code</a> /
+              <a href="https://github.com/magic-research/Sa2VA">code</a> /
               <a href="https://arxiv.org/pdf/2504.10465">pdf</a>
         
               <p></p>
               <p style="color:rgb(110, 110, 110)"> It's the first study to explore the simplest architecture for pixel-wise MLLM tasks, including referring segmentation and visual prompt understanding.</p>
-            </td>
-          </tr>
-
-
-    <tr onmouseout="topformer_stop()" onmouseover="topformer_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle;">
-              <div class="one">
-                <div class="two" id='topformer_image'><img src='resource/gigatok.png' width="160" height="120" style="border-style: none"></div>
-                <img src='resource/gigatok.png' width="160" height="120" style="border-style: none">
-              <script type="text/javascript">
-                function diffposenet_start() {
-                  document.getElementById('topformer_image').style.opacity = "1";
-                }
-
-                function diffposenet_stop() {
-                  document.getElementById('topformer_image').style.opacity = "0";
-                }
-                diffposenet_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2504.08736">
-                <papertitle>GigaTok: Scaling Visual Tokenizers to 3 Billion Parameters for Autoregressive Image Generation</papertitle>
-              </a>
-              <br>
-              Tianwei Xiong, Jun Hao Liew, <strong>Zilong Huang</strong>, Jiashi Feng, Xihui Liu.
-              <br>
-        <em><a href="">Arxiv, 2025</a></em> 
-              <br>
-              <a href="https://github.com/SilentView/GigaTok">code</a> /
-              <a href="https://arxiv.org/abs/2504.08736">pdf</a>
-        
-              <p></p>
-              <p style="color:rgb(110, 110, 110)"> We introduce GigaTok, the first method for scaling visual tokenizers to 3 billion parameters.</p>
             </td>
           </tr>
 
