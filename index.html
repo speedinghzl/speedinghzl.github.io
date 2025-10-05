@@ -60,12 +60,14 @@
             <ul>
              
     <!-- <p> <span class="red-bold ">[Call for paper]</span> Image and Vision Computing <a href="https://www.sciencedirect.com/journal/image-and-vision-computing/about/call-for-papers"> Special Issue on "Advancing Transparency and Privacy: Explainable AI and Synthetic Data in Biometrics and Computer Vision" </a></p> -->
+    <li>[Sep 2025] Consistently ranked among the <a href="https://topscinet.com/scientist_profile/Huang,%20Zilong/2017/?stype=single_year">World's Top 2% Scientists by Stanford University/Elsevier</a> (2022-2025) </li>
+    <li>[Sep 2025] SuperCLIP is accepted by NeurIPS 2025.</li>
+    <li>[Aug 2025] Invited to be an Area Chair for ICLR 2026.</li>
     <li>[Jun 2025] Three papers (<a href="https://arxiv.org/pdf/2504.10462">SAIL(Highlight)</a>, <a href="https://arxiv.org/abs/2504.08736">GiGaTok</a> and QK-Edit) are accepted by ICCV 2025.</li>
     <li>[May 2025] <a href="https://www.arxiv.org/abs/2505.07062">Seed1.5-VL Technical Report</a> is released.</li>
     <li>[Feb 2025] <a href="https://github.com/hustvl/DiG">DiG</a> and <a href="https://videodepthanything.github.io/"> Video Depth-Anything(Spotlight)  </a> are accepted by CVPR 2025.</li>
     <li>[Jan 2025] <a href="https://arxiv.org/abs/2301.13156">SeaFormer++</a> is accepted by IJCV.</li>
     <li>[Oct 2024] <a href="https://arxiv.org/abs/2411.03313">SuperClass</a> and <a href="https://depth-anything-v2.github.io"> Depth-Anything V2 </a> are accepted by NeurIPS 2024.</li>
-    <li>[Sep 2024] Ranked as <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7" target="_blank">The World’s Top 2% Scientists 2024 </a>  by Stanford University/Elsevier. </li>
     <li>[May 2024] Co-organizing the ECCV 2024 Workshop <a href="https://syntheticdata4cv.wordpress.com/"> Synthetic Data for Computer Vision </a></li>
     <li>[Feb 2024] <a href="https://github.com/LiheYoung/Depth-Anything"> Depth-Anything </a> is accepted by CVPR 2024.</li>
     <!-- <li>[Dec 2023] <a href="https://github.com/fudan-zvg/meta-prompts">Meta Prompts </a> is released. </li> -->
@@ -94,13 +96,46 @@
 	  <div id="publication" style="width: 100%; margin-top: 10px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: inline-block">
           </div>
           <p> My selected publications are listed here. The complete list of publications can be seen from my <a href="https://scholar.google.com/citations?user=GW9vw8UAAAAJ&hl=en">Google Scholar</a> page.</p>
-          <p>^ Intern. * equal contribution</p>
+          <p>^ Intern. * equal contribution. + corresponding author</p>
       </td>
       </tr>
       </table>
 
 	  
 	 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr onmouseout="topformer_stop()" onmouseover="topformer_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle;">
+              <div class="one">
+                <div class="two" id='topformer_image'><img src='resource/superclip.png' width="160" height="120" style="border-style: none"></div>
+                <img src='resource/superclip.png' width="160" height="120" style="border-style: none">
+              <script type="text/javascript">
+                function diffposenet_start() {
+                  document.getElementById('topformer_image').style.opacity = "1";
+                }
+
+                function diffposenet_stop() {
+                  document.getElementById('topformer_image').style.opacity = "0";
+                }
+                diffposenet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://neurips.cc/virtual/2025/poster/119115">
+                <papertitle>SuperCLIP: CLIP with Simple Classification Supervision</papertitle>
+              </a>
+              <br>
+              Weiheng Zhao, <strong>Zilong Huang+</strong>, Jiashi Feng, Xinggang Wang.
+              <br>
+        <em><a href="">NeurIPS 2025</a></em> 
+              <br>
+              <a href="">code</a> /
+              <a href="">pdf(coming soon)</a>
+        
+              <p></p>
+              <p style="color:rgb(110, 110, 110)"> We propose SuperCLIP, a simple yet effective framework that augments contrastive learning with classification-based supervision. With just a 0.077% increase in total FLOPs and no need for additional annotated data, it can significantly improve the performance of visual models.</p>
+            </td>
+          </tr>
 
     <tr onmouseout="topformer_stop()" onmouseover="topformer_start()">
             <td style="padding:20px;width:25%;vertical-align:middle;">
@@ -131,7 +166,7 @@
               <a href="https://www.arxiv.org/abs/2505.07062">pdf</a>
         
               <p></p>
-              <p style="color:rgb(110, 110, 110)"> My primary responsibility was to conduct research on vision-language pre-training and to design the training pipeline of Seed-ViT.</p>
+              <p style="color:rgb(110, 110, 110)"> My primary responsibility was to conduct research on vision-language pre-training and to build the training pipeline of Seed-ViT.</p>
             </td>
           </tr>
 
@@ -156,7 +191,7 @@
                 <papertitle>The Scalability of Simplicity: Empirical Analysis of Vision-Language Learning with a Single Transformer</papertitle>
               </a>
               <br>
-              Weixian Lei^*, Jiacong Wang^*, Haochen Wang^*, Xiangtai Li, Jun Hao Liew, Jiashi Feng, <strong>Zilong Huang</strong>.
+              Weixian Lei^*, Jiacong Wang^*, Haochen Wang^*, Xiangtai Li, Jun Hao Liew, Jiashi Feng, <strong>Zilong Huang+</strong>.
               <br>
         <em><a href="">ICCV 2025,Highlight</a></em> 
               <br>
@@ -292,7 +327,7 @@
                 <papertitle>DiG: Scalable and Efficient Diffusion Models with Gated Linear Attention</papertitle>
               </a>
               <br>
-              Lianghui Zhu^, <strong>Zilong Huang</strong>, Bencheng Liao, Jun Hao Liew, Hanshu Yan, Jiashi Feng, Xinggang Wang
+              Lianghui Zhu^, <strong>Zilong Huang+</strong>, Bencheng Liao, Jun Hao Liew, Hanshu Yan, Jiashi Feng, Xinggang Wang
               <br>
         <em><a href="">CVPR 2025</a></em> 
               <br>
@@ -361,7 +396,7 @@ transformer.</p>
                 <papertitle>Classification Done Right for Vision-Language Pre-Training</papertitle>
               </a>
               <br>
-              <strong>Zilong Huang</strong>, Qinghao Ye, Bingyi Kang, Jiashi Feng, Haoqi Fan
+              <strong>Zilong Huang+</strong>, Qinghao Ye, Bingyi Kang, Jiashi Feng, Haoqi Fan
               <br>
         <em><a href="">NeurIPS 2024</a></em> 
               <br>
@@ -429,7 +464,7 @@ transformer.</p>
                 <papertitle>Harnessing Diffusion Models for Visual Perception with Meta Prompts</papertitle>
               </a>
               <br>
-              Qiang Wan^, <strong>Zilong Huang</strong>, Bingyi Kang, Jiashi Feng, Li Zhang.
+              Qiang Wan^, <strong>Zilong Huang+</strong>, Bingyi Kang, Jiashi Feng, Li Zhang.
               <br>
         <em><a href="">Arxiv 2024</a></em> 
               <br>
